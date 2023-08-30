@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.hanthuyen8'
-version = '1.1.0'
+version = '1.1.2'
 
 android {
     namespace 'com.senspark.android.notification'
@@ -14,8 +14,8 @@ android {
     defaultConfig {
         minSdk 19
         targetSdk 33
-        versionCode 7
-        versionName "1.1.0"
+        versionCode 8
+        versionName "1.1.2"
 
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -66,7 +66,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.hanthuyen8'
                 artifactId = 'Senspark-Android-Banner-Notification'
-                version = '1.1.0'
+                version = '1.1.2'
             }
         }
     }
